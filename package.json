@@ -1,6 +1,6 @@
 {
   "name": "@alibaba-group/open-code-review",
-  "version": "0.0.0",
+  "version": "0.0.0-vertex.1",
   "description": "OpenCodeReview CLI — AI-powered code review tool",
   "bin": {
     "ocr": "bin/ocr.js"
@@ -27,16 +27,8 @@
     "access": "public"
   },
   "ocrConfig": {
-    "urlPattern": "https://github.com/alibaba/open-code-review/releases/download/v{version}/opencodereview-{os}-{arch}",
-    "checksumPattern": "https://github.com/alibaba/open-code-review/releases/download/v{version}/sha256sum.txt"
-  },
-  "optionalDependencies": {
-    "@alibaba-group/ocr-darwin-arm64": "0.0.0",
-    "@alibaba-group/ocr-darwin-x64": "0.0.0",
-    "@alibaba-group/ocr-linux-arm64": "0.0.0",
-    "@alibaba-group/ocr-linux-x64": "0.0.0",
-    "@alibaba-group/ocr-win32-arm64": "0.0.0",
-    "@alibaba-group/ocr-win32-x64": "0.0.0"
+    "urlPattern": "https://github.com/pdostal/open-code-review/releases/download/v{version}/opencodereview-{os}-{arch}",
+    "checksumPattern": "https://github.com/pdostal/open-code-review/releases/download/v{version}/sha256sum.txt"
   },
   "engines": {
     "node": ">=14"
